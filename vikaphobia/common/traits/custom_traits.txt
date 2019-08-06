@@ -1,0 +1,27 @@
+#custom menu  species traits
+
+trait_vikaphobia = {
+   cost = -2
+   modification = yes 
+   potential_crossbreeding_chance = 1.0
+   opposites = { "trait_communal" "trait_traditional" "trait_architectural" }
+   allowed_archetypes = { BIOLOGICAL }
+   icon = "gfx/interface/icons/traits/trait_vika.dds"
+   modifier = {
+           pop_housing_usage_mult = 0.10
+		   planet_jobs_unity_produces_mult = -0.1
+        }
+}
+
+trait_architectural = {
+	cost = 2
+	modification = yes 
+    potential_crossbreeding_chance = 1.0
+	opposites = { "trait_vikaphobia" "trait_solitary" "trait_quarrelsome" }
+    allowed_archetypes = { BIOLOGICAL }
+	icon = "gfx/interface/icons/traits/trait_architectural.dds"
+	 modifier = {
+           pop_housing_usage_mult = -0.10
+		   planet_jobs_unity_produces_mult = 0.1
+        }
+}		

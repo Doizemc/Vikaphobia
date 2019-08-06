@@ -1,0 +1,25 @@
+triggered_kostya_vs_vik = {
+trigger = {
+		is_country_type = default
+		has_trait = trait_architectural 
+		FROM = {
+			has_trait = trait_vikaphobia 
+		}
+	}
+	opinion = {
+		base = -100
+	}
+}
+
+triggered_vik_vs_kostya = {
+trigger = {
+		is_country_type = default
+		has_trait = trait_vikaphobia 
+		FROM = {
+			has_trait = trait_architectural 
+		}
+	}
+	opinion = {
+		base = -100
+	}
+}
