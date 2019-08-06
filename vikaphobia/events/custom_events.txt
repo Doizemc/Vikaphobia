@@ -1,0 +1,20 @@
+namespace = dronik
+country_event = {
+	id = dronik.1
+	title = dronik.1.name
+	desc = "dronik.1.desc"
+	picture = GFX_evt_sub_zero
+    fire_only_once = yes 
+	
+	
+	option = {
+		name = dronik.1.a
+		custom_tooltip = dronik.1.a.tooltip
+        add_resource = { energy = -150 }		
+		}
+		
+		option = {
+		name = dronik.1.b
+		custom_tooltip = dronik.1.b.tooltip
+		}
+}
