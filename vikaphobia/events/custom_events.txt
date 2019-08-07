@@ -10,11 +10,12 @@ country_event = {
 	option = {
 		name = dronik.1.a
 		custom_tooltip = dronik.1.a.tooltip
-        add_resource = { energy = -150 }		
+        add_resource = { energy = 15 }		
 		}
 		
 		option = {
 		name = dronik.1.b
 		custom_tooltip = dronik.1.b.tooltip
+		add_resource = { energy = -5 }	
 		}
 }
