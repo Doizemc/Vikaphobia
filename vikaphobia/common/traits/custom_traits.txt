@@ -1,7 +1,7 @@
 #custom menu  species traits
 
 trait_vikaphobia = {
-   cost = -2
+   cost = -3
    modification = yes 
    potential_crossbreeding_chance = 1.0
    opposites = { "trait_communal" "trait_traditional" "trait_architectural" }
@@ -14,7 +14,7 @@ trait_vikaphobia = {
 }
 
 trait_architectural = {
-	cost = 2
+	cost = 3
 	modification = yes 
     potential_crossbreeding_chance = 1.0
 	opposites = { "trait_vikaphobia" "trait_solitary" "trait_quarrelsome" }
